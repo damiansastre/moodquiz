@@ -12,7 +12,7 @@ The idea of this project is to give students the opportunity to import Python co
 * [unittest](https://docs.python.org/3/library/unittest.html) and [pytest](https://docs.pytest.org/en/6.2.x/) to execute tests.
 * [Jinja2](https://jinja.palletsprojects.com/en/2.11.x/) for question templates.
 * [dashtable](https://github.com/doakey3/DashTable) to turn HTML tables into ASCII tables.
-* Python > 3
+* Python >= 3
 
 ## Installation
 
