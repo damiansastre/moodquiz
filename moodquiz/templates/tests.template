@@ -1,0 +1,17 @@
+from contextlib import redirect_stdout
+import unittest
+import io
+
+from question{{question_number}} import *
+
+class TestQuestion{{question_number}}(unittest.TestCase):
+    {% for test in tests %}
+    def test_{{test.number}}(self):
+        buf = io.StringIO()
+        with redirect_stdout(buf):
+{{test.body}}
+        self.assertIn("""{{test.result}}""", buf.getvalue())
+    {% endfor %}
+
+if __name__ == '__main__':
+    unittest.main()

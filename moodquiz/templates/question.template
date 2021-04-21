@@ -1,0 +1,12 @@
+"""QUESTION {{question_number}}
+Marks: {{mark}} ({{completed}})
+{{question | wordwrap}}
+{% if examples %}
+Examples:
+
+{{examples}}
+{% endif %}
+"""
+#==== YOUR CODE GOES HERE===
+{{answer}}
+#==== YOUR CODE GOES HERE===
