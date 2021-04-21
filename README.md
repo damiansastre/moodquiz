@@ -6,7 +6,7 @@ My biggest struggle when doing Quizzes/Assignments in Moodle is that I have to c
 
 The idea of this project is to give students the opportunity to import Python coding questions into a project, creating test cases for the examples given (if they have examples) all in the comfort of their IDE or console.
 
-## Tech Stack:
+## Libraries:
 
 * [Mechanize](https://mechanize.readthedocs.io/en/latest/) and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to navigate and parse the quizzes.
 * [unittest](https://docs.python.org/3/library/unittest.html) and [pytest](https://docs.pytest.org/en/6.2.x/) to execute tests.
