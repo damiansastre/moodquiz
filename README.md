@@ -86,7 +86,9 @@ mquiz -t {QUESTION_ID}
 mquiz -t 1 (for question 1)
 ```
 
-This command runs pytest for the id of the questions. **NOTE**: You have to be inside the quiz folder for this command to work.
+This command runs pytest for the Question Number. 
+
+**NOTE**: You have to be inside the quiz folder for this command to work.
 
 
 ## TODO: 
