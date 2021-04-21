@@ -40,7 +40,7 @@ Mood Quiz project adds a new command to your sys path: **mquiz**
 mquiz [-h] [-s] [-q QUIZ] [-t TEST]
 ```
 
-### First time command -s --start
+### First time command [-s --start]
 
 ```
 mquiz -s
@@ -63,7 +63,7 @@ We need this setup in order to make imports as easy and fast for the student as 
 This command will create a json configuration file on your current path (**.config.ini**)
 In case something was misspelled during configuration you can either edit that file or run the command again. 
 
-### Import QUIZ -q --quiz QUIZ_ID
+### Import QUIZ [-q --quiz QUIZ_ID]
 
 ```
 mquiz -q {QUIZ_ID}
@@ -79,7 +79,7 @@ It will ask for password in order to login and will create a folder with the qui
 Once this proccess is finished you should see the a new folder on your path with the name of the quizz and inside of it the questions and tests. 
 The command only imports questions that have code challenges.
 
-### Test QUIZ Question -t --test QUESTION_ID
+### Test QUIZ Question [-t --test QUESTION_ID]
 
 ```
 mquiz -t {QUESTION_ID}
